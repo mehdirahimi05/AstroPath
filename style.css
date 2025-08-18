@@ -1,0 +1,58 @@
+body {
+  font-family: 'Space Mono', monospace;
+  margin: 0px;
+}
+header{
+    position: fixed;
+    padding: 0px;
+    position: sticky;
+}
+header .hero_img{
+   background-image: url(img/astronaut.jpg); 
+   height: 35rem;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+    margin: 0;
+}
+header .hero_text{
+    font-size: large;
+    color: white;
+    text-align: center;
+    position: fixed;
+    top: 10rem;
+    left: 1rem;
+}
+header #start_btn{
+    width: 4rem;
+    height: 2rem;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+    border-color: white;
+    transition: 0.15s;
+}
+header #start_btn:hover{
+    background: black;
+    color: white;
+    opacity: 1;
+}
+
+
+@media (max-width: 768px){
+
+    header .hero_img{
+        height: 20rem;
+        width: 100%;
+    }
+
+    header .hero_text{
+    font-size: 0.6rem;
+    text-align: center;
+    position: fixed;
+    top: 6.5rem;
+    left: 1rem;
+     }
+}
