@@ -18,27 +18,19 @@ header .hero_img{
 header .hero_text{
     font-size: large;
     color: white;
-    text-align: center;
     position: relative;
     top: 10rem;
-    left: 1rem;
+    left: 2rem;
 }
-header #start_btn{
-    width: 4rem;
-    height: 2rem;
-    background-color: white;
-    text-decoration: none;
-    color: black;
-    border-radius: 10px;
-    border-color: white;
-    position: relative;
-    transition: 0.15s;
-}
-header #start_btn:hover{
-    background: black;
+
+main{
+    height: 100%;
+    margin: 0px;
+    background: url(img/space.jpg);
     color: white;
-    opacity: 1;
 }
+
+
 
 
 @media (max-width: 768px){
