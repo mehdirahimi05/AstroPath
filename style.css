@@ -3,9 +3,8 @@ body {
   margin: 0px;
 }
 header{
-    position: fixed;
-    padding: 0px;
-    position: sticky;
+    position: relative;
+
 }
 header .hero_img{
    background-image: url(img/astronaut.jpg); 
@@ -20,7 +19,7 @@ header .hero_text{
     font-size: large;
     color: white;
     text-align: center;
-    position: fixed;
+    position: relative;
     top: 10rem;
     left: 1rem;
 }
@@ -32,6 +31,7 @@ header #start_btn{
     color: black;
     border-radius: 10px;
     border-color: white;
+    position: relative;
     transition: 0.15s;
 }
 header #start_btn:hover{
